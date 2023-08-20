@@ -13,7 +13,7 @@ function App() {
   const [decrement, setDecrement] = useState(50);
 
   const decrementClick = () => {
-    setCount(decrement - 1);
+    setDecrement(decrement - 1);
   };
   return (
     <>
@@ -22,7 +22,7 @@ function App() {
       <div>{count}</div>
       <div>
       <button onClick={decrementClick}>Decrement</button>
-    <div>{setDecrement}</div>
+    <div>{decrement}</div>
       </div>
     </>
   );
