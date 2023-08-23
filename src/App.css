@@ -4,9 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-.btn1{
-  color: chartreuse;
-}
-.btn2{
-  color: red;
+.setColor{
+  color: brown;
 }
